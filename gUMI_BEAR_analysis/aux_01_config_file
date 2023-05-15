@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#how many samples do we have
+samples=6
+#path to a text file which lists all files you want to use to create the initial seeds list (use absolute path)
+initial_Seeds="/home/labs/bfreich/shaharr/github_repos/gumi_bear_barcode_analysis/aux_02_initial_Seeds.txt"
+#a name for the experiment
+exp_name="Test"
+#path to R code for the final step of umi clustering
+r_code="/home/labs/bfreich/shaharr/github_repos/gumi_bear_barcode_analysis/aux_03_clustering_umis.R"
+#post analysis rcode
+post_code="/home/labs/bfreich/shaharr/github_repos/gumi_bear_barcode_analysis/aux_04_post_analysis.R"
+
